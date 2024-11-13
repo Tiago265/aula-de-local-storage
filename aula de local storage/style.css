@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.section{
+    border-radius: 15px;
+    border-style: groove;
+    background-color: aqua;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+    width: 75%;
+    border-radius: 50px;
+    background-color: aqua;
+    border-color: aqua;
+}
+input{
+    width: 75%;
+    border-radius: 50px;
+    background-color: pink;
+    height: 5vh;
+}
+button:hover{
+    background-color: pink;
+}
+.section:hover{
+    background-color: pink;
+}
+h1{
+    color: palevioletred;
+}

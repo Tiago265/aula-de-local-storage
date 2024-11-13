@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70vw;
+    border-style: double;
+    border-radius: 15px;
+    background-color: antiquewhite;
+}
+
+.register{
+    border-style: groove;
+    width: 45vw;
+    border-style: groove;
+    border-radius: 15px;
+    background-color: rgb(197, 248, 208);
+}
+
+.login{
+    border-style: groove;
+    width: 45vw;
+    border-style: groove;
+    border-radius: 15px;
+    background-color: rgb(197, 248, 208);
+}
+
+#adiciona{
+    width: 100%;
+    height: 25px;
+    background-color: chartreuse;
+    border-radius: 15px;
+}
+
+
+#logar{
+    width: 100%;
+    height: 25px;
+    background-color: greenyellow;
+    border-radius: 15px;
+}
+
+input{
+    width: 200px;
+    height: 20px;
+    border-radius: 15px;
+}
