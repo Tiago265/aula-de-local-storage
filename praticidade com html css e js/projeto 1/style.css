@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+}
+
+.wrapper{
+    display: flex;
+    width: 600px;
+    height: 300px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card1{
+    background-color: #f77c73;
+}
+
+.card2{
+    background-color: #6cbdff;
+}
+
+.card3{
+    background-color: #71ff76;
+}
+
+.card4{
+    background-color: #ffd65d;
+}
+
+.card{
+    flex: 1;
+    height: 100%;
+    transition: flex 0.5s ease;
+    cursor: pointer;
+}
+
+.card:hover{
+    flex: 3;
+}
